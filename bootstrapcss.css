@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:#dddddd;
+    color: #777777;
+   
+}
+
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding-top: 2%;
+}
+
+hr {
+    color:#777777;
+}
+
+.portfolioimg {
+    height: 200px;
+    width: 200px;
+}
+img {
+    width: 220px;
+    height: 180px;
+    padding: 3%;
+}
+.long {
+    width: 270px;
+    height: 180px;
+    padding: 3%;
+}
+.middle {
+    background-color: #ffffff;
+    margin-top: 5%;
+    padding: 3%;
+}
+.bottomp {
+    padding-top: 3%;
+}
+footer {
+    text-align: center;
+    background-color: #666666;
+    margin-top: 8%;
+    padding-top: 2%;
+  
+}
+#teal {
+    color: #4aaaa5;
+   
+}
