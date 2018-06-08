@@ -1,0 +1,15 @@
+#mainContainer {
+    border: solid black;
+}
+
+.col-sm {
+    text-align: center;
+    border: solid black;
+    border-radius: 4%;
+    margin: 2%;
+ }
+
+footer {
+    text-align: center;
+    margin-top: 20%;
+ }
