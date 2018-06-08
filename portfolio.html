@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html>
-        <head> <!--links to bootystrap-->
+<head> 
 
-            <title>BootyStrap</title>
-          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-         
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-          <link rel="stylesheet" href="bootstrapcss.css">
-          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-          </head>
-          <body>
-              <div class="container">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <a class="navbar-brand" href="#">Travis Margetts</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                              <ul class="navbar-nav ml-auto ">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                              </ul>
+  <title>Portfolio</title>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="container" id="mainContainer">
+
+
+                <nav class="site-navigation page-navigation">
+                    
+                    <div class="top-nav">
+                         <ul class="nav justify-content-end">
+                         <li class="nav-item">
+                          <a class="nav-link active about-click" href="index.html"><i class="fas fa-user animated bounce"></i> About</a>
+                         </li>
+                         <li class="nav-item">
+                          <a class="nav-link portfolio-click" href="portfolio.html"><i class="fas fa-book-open animated bounce"></i> Portfolio</a>
+                         </li>
+                        <li class="nav-item">
+                          <a class="nav-link contact-click" href="contact.html"><i class="far fa-comments animated bounce"></i> Contact</a>
+                        </li>
+                         </ul>
+                     </div>
+
+                     <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                          <h1 class="display-4">Portfolio</h1>
+                          <p class="email"><i class="far fa-envelope"></i> Email: travismargetts@gmail.com</p>
+                          <a href="https://www.linkedin.com/in/travis-margetts/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                          <a href="https://github.com/tmargetts" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="col-sm" id="col1">
+                                <i class="fas fa-question-circle"></i>
+                                <a href="https://tmargetts.github.io/PsychicGame/" target="_blank"><p>Psychic Game</p></a>
+                          </div>
+                          <div class="col-sm" id="col2">
+                                <i class="far fa-gem"></i>
+                                <a href="https://tmargetts.github.io/crystalgame/" target="_blank"><p>Crystal Game</p></a>
+                          </div>
+                          <div class="col-sm" id="col3">
+                                <i class="far fa-question-circle"></i>
+                                <a href="https://tmargetts.github.io/triviaGame/" target="_blank"><p>Trivia Game</p></a>
+                          </div>
+                      </div>
+                    <div class="row">
+                            <div class="col-sm" id="col4">
+                                <i class="far fa-smile"></i>
+                                  <a href="https://tmargetts.github.io/gifHW6/" target="_blank"><p>GifTastic</p></a>
                             </div>
-                          </nav>
-                  <div class="row">
-                      <div class="col-md-2">
+                            <div class="col-sm" id="col5">
+                                <i class="fas fa-train"></i>
+                                  <a href="https://tmargetts.github.io/homework7/" target="_blank"><p>Train Schedule</p></a>
+                            </div>
+                            <div class="col-sm" id="col6">
+                                <i class="fas fa-map-marker-alt"></i>
+                                  <a href="https://spaceyb0t.github.io/Project-1-/index.html#getstarted" target="_blank"><p>National Park Locator</p></a>
+                            </div>
+                    </div>
 
-                      </div>
-                      <div class="col-md-8 middle">
-                        <div>
-                            <h1>Portfolio</h1>
-                            <hr>
-                        </div>
-                        <div class="row">
-                          <div class="col-md-4 portimg"><img src="http://cdn3-www.dogtime.com/assets/uploads/gallery/austalian-shepherd-dog-breed-pictures/5-puppy.jpg" alt="">
-                        </div>   
-                          <div class="col-md-4"><img class="long" src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Australian-Shepherd-2.jpg" alt=""></div>  
-                          <div class="col-md-4"></div>     
-                        </div>
-                        <div class="row">
-                                <div class="col-md-4"><img  src="http://cdn3-www.dogtime.com/assets/uploads/gallery/austalian-shepherd-dog-breed-pictures/5-puppy.jpg" alt=""></div>   
-                                <div class="col-md-4"><img  class="long" src="http://www.dogbreedslist.info/uploads/allimg/dog-pictures/Australian-Shepherd-2.jpg" alt=""></div>  
-                                <div class="col-md-4"></div>     
-                        </div>
-                        <div class="row">
-                                <div class="col-md-4"><img src="http://cdn3-www.dogtime.com/assets/uploads/gallery/austalian-shepherd-dog-breed-pictures/5-puppy.jpg" alt=""></div>   
-                                <div class="col-md-4"></div>  
-                                <div class="col-md-4"></div>     
-                        </div>
-                      </div>
-                      <div class="col-md-2">
+            <footer>
+              <p class="footer">&copy; Copyright 2018 Travis Margetts</p>
+            </footer>
+        </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenLite.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineLite.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/plugins/CSSPlugin.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/easing/EasePack.min.js"></script>
 
-                      </div>
-                  </div>
-              </div>
-              <footer>
-                   
-                      <p>&copy; Copyright 2018 Travis Margetts</p>
-                    </footer>
-          </body>
-         
-          
-    </html>
+            <script src="animate.js"></script>
+    </body>
+   
+</html>
